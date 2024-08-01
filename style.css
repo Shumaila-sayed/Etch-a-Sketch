@@ -1,0 +1,22 @@
+body{
+    padding: 10px;
+    background-color: gainsboro;
+}
+
+#container{
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    background-color: white;
+}
+
+
+.small-div{
+    width: 37.5px; /* 600px / 16 */
+    height: 37.5px; /* 600px / 16 */
+    box-sizing: border-box;
+    /* border: 1px solid #ccc; */
+}
