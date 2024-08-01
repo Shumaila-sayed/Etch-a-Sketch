@@ -1,12 +1,14 @@
 body{
     padding: 10px;
     background-color: gainsboro;
+    display: flex;
+   gap: 20px;
+    justify-content: center;
 }
 
 #container{
     height: 600px;
     width: 600px;
-    margin: auto;
     display: flex;
     flex-wrap: wrap;
     border: 1px solid black;
@@ -18,5 +20,12 @@ body{
     width: 37.5px; /* 600px / 16 */
     height: 37.5px; /* 600px / 16 */
     box-sizing: border-box;
-    /* border: 1px solid #ccc; */
+   /*border: 1px solid #ccc; */
+}
+
+.btn{
+   height: 40px;
+   width: 150px;
+   border-radius: 6px;
+   border: 1px solid #494848;
 }
